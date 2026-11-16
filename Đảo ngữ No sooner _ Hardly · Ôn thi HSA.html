@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Đảo ngữ No sooner / Hardly · Ôn thi HSA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg1:#e4f0ff;--bg2:#f6e6fb;--bg3:#ffe3ee;--card:rgba(255,255,255,.74);--ink:#37336a;--mut:#756f9e;--bl:#5f87e6;--pk:#ee5c9c;--pu:#9a68ee;--line:#e6defa;--ok:#1b7a50;--okbg:#d8f3e4;--no:#b8344d;--nobg:#fde0e7;--wm:rgba(255,255,255,.55);color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg1:#161a3a;--bg2:#241a40;--bg3:#35183a;--card:rgba(36,32,74,.8);--ink:#ece9ff;--mut:#b4aee0;--bl:#8fb0ff;--pk:#ff8ab9;--pu:#b99aff;--line:#443c78;--ok:#6fd1a6;--okbg:#17352a;--no:#ff8aa0;--nobg:#3d1b26;--wm:rgba(255,255,255,.08)}}
+:root[data-theme="dark"]{--bg1:#161a3a;--bg2:#241a40;--bg3:#35183a;--card:rgba(36,32,74,.8);--ink:#ece9ff;--mut:#b4aee0;--bl:#8fb0ff;--pk:#ff8ab9;--pu:#b99aff;--line:#443c78;--ok:#6fd1a6;--okbg:#17352a;--no:#ff8aa0;--nobg:#3d1b26;--wm:rgba(255,255,255,.08)}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font:400 16px/1.7 "Be Vietnam Pro",system-ui,sans-serif;background:linear-gradient(170deg,var(--bg1),var(--bg2) 50%,var(--bg3)) fixed;overflow-x:hidden}
+.bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.fl{position:absolute;will-change:transform;filter:blur(.8px) drop-shadow(0 12px 18px rgba(238,92,156,.25));animation:bob 9s ease-in-out infinite alternate}
+@keyframes bob{to{margin-top:16px;margin-left:-8px}}
+.sp{position:absolute;width:22px;height:22px;animation:tw 3.2s ease-in-out infinite}
+@keyframes tw{50%{transform:scale(.4) rotate(40deg);opacity:.35}}
+main{position:relative;z-index:1}
+.sc{font-family:"Dancing Script","Be Vietnam Pro",cursive;font-weight:700}
+.gt{background:linear-gradient(90deg,#ff5ea8,#9d6bf5 60%,#f06fa6);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.hero{min-height:96vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 20px 70px;position:relative}
+.wm{position:absolute;left:50%;top:14vh;transform:translateX(-50%);font:800 clamp(130px,40vw,330px)/1 "Be Vietnam Pro",sans-serif;color:var(--wm);letter-spacing:-.04em;pointer-events:none;white-space:nowrap}
+.hero .a{font-size:clamp(26px,6.5vw,40px);color:var(--bl);position:relative;margin:0}
+.hero h1{margin:0;font-size:clamp(46px,13vw,104px);line-height:1.05;position:relative}
+.hero .b{font-family:"Dancing Script",cursive;font-size:clamp(22px,5.4vw,32px);color:var(--pk);position:relative;margin:10px 0 0}
+.hero p.d{max-width:360px;margin:20px auto 0;color:var(--mut);font-size:14px;position:relative}
+.go{display:inline-block;margin-top:20px;padding:10px 32px;border-radius:99px;background:linear-gradient(90deg,var(--pk),var(--pu));color:#fff;font:inherit;font-weight:700;text-decoration:none;border:0;cursor:pointer;box-shadow:0 12px 24px -10px var(--pk);transition:transform .2s;position:relative}
+.go:hover{transform:translateY(-3px)}
+.env{width:min(60vw,200px);margin-top:26px;animation:bob 6s ease-in-out infinite alternate;position:relative}
+.card{max-width:800px;margin:44px 16px;padding:34px 28px 26px;background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1.5px solid rgba(255,255,255,.85);border-radius:30px;box-shadow:0 26px 50px -34px rgba(154,104,238,.7)}
+@media(min-width:848px){.card{margin-left:auto;margin-right:auto}}
+h2.sc{font-size:clamp(30px,6.5vw,42px);margin:0 0 8px;line-height:1.15}
+h2.sc small{display:block;font-family:"Be Vietnam Pro";font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--bl);font-weight:700}
+h3{margin:18px 0 8px;font-size:18px;color:var(--pu)}
+p{margin:0 0 12px}.mut{color:var(--mut)}
+.fm{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0 14px;padding:14px;border-radius:20px;background:rgba(255,255,255,.5);border:1.5px dashed var(--line)}
+.fm b{padding:3px 11px;border-radius:10px;background:var(--line);color:var(--ink);font-size:14px}
+.fm b.k{background:var(--pk);color:#fff}.fm b.k2{background:var(--bl);color:#fff}.fm b.w{background:var(--pu);color:#fff}
+:root:not([data-theme="light"]) .fm b.k,:root:not([data-theme="light"]) .fm b.k2,:root:not([data-theme="light"]) .fm b.w{color:#1a1236}
+.note{border-left:4px solid var(--pk);background:rgba(238,92,156,.09);padding:8px 14px;margin:12px 0;border-radius:0 14px 14px 0;font-size:15px}
+.wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:15px}
+td,th{padding:10px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:600;font-size:13px;color:var(--mut);border-top:0}
+td:last-child{color:var(--pk);font-weight:500}
+ol{padding-left:22px;margin:6px 0 12px}li{margin-bottom:6px}
+.q{padding:18px 0;border-top:1.5px dashed var(--line)}
+.q:first-of-type{border-top:0}
+.qn{font-family:"Dancing Script",cursive;font-weight:700;color:var(--pk);margin-right:8px;font-size:26px}
+.sent{font-size:17px;margin-bottom:10px}
+.st{font-weight:700;color:var(--pu)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end}
+textarea{flex:1 1 280px;min-width:0;font:inherit;padding:10px 16px;border-radius:18px;border:2px solid var(--line);background:rgba(255,255,255,.4);color:var(--ink);resize:none;height:64px}
+textarea:focus,button:focus-visible,a:focus-visible{outline:2px solid var(--pu);outline-offset:2px}
+textarea.ok{border-color:var(--ok);background:var(--okbg)}
+textarea.no{border-color:var(--no);background:var(--nobg);animation:shake .4s}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.cb{padding:9px 24px;border:0;border-radius:99px;background:linear-gradient(90deg,var(--pk),var(--pu));color:#fff;font:inherit;font-weight:700;cursor:pointer;transition:transform .15s}
+.cb:hover{transform:translateY(-2px)}
+.opt{display:block;width:100%;text-align:left;margin:7px 0;padding:10px 16px;border-radius:16px;border:2px solid var(--line);background:rgba(255,255,255,.4);color:var(--ink);font:inherit;cursor:pointer;transition:transform .15s,border-color .2s,background .3s}
+.opt:hover:not(:disabled){border-color:var(--pu);transform:translateX(5px)}
+.opt .l{display:inline-block;width:24px;color:var(--pk);font-weight:700}
+.opt.ok{background:var(--okbg);border-color:var(--ok)}
+.opt.no{background:var(--nobg);border-color:var(--no);animation:shake .4s}
+.opt:disabled{cursor:default}
+.fb{display:none;margin-top:12px;padding:12px 16px;border-radius:18px;font-size:15px}
+.fb.show{display:block;animation:pop .45s cubic-bezier(.2,1.3,.4,1)}
+@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.97)}}
+.fb.ok{background:var(--okbg)}.fb.no{background:var(--nobg)}
+.fb strong.ok{color:var(--ok)}.fb strong.no{color:var(--no)}
+.fb .ans{font-size:17px;font-weight:600;margin:3px 0}
+.reveal{opacity:0;transform:translateY(36px) scale(.98);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.pill{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:5;padding:7px 18px;border-radius:99px;background:linear-gradient(90deg,var(--pk),var(--pu));color:#fff;font-size:14px;font-weight:700;box-shadow:0 8px 22px -6px var(--pk)}
+.score{font-family:"Dancing Script",cursive;font-weight:700;font-size:92px;line-height:1}
+.center{text-align:center}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true">
+  <svg class="fl" id="f1" style="left:-8vw;top:34vh;width:min(46vw,230px)" viewBox="0 0 200 200"></svg>
+  <svg class="fl" id="f2" style="right:-9vw;top:10vh;width:min(54vw,270px);animation-delay:-3s" viewBox="0 0 200 200"></svg>
+  <svg class="fl" id="f3" style="right:4vw;bottom:-6vh;width:min(40vw,200px);animation-delay:-6s" viewBox="0 0 200 200"></svg>
+  <div id="sps"></div>
+</div>
+<main>
+<section class="hero reveal">
+  <div class="wm">20·11</div>
+  <p class="a sc">Chuyên đề đảo ngữ</p>
+  <h1 class="sc gt">No sooner<br>&amp; Hardly</h1>
+  <p class="d">“Vừa mới … thì …”: lý thuyết trọng tâm, 30 câu viết lại và 20 câu trắc nghiệm chuẩn HSA. Làm xong câu nào, đáp án và giải thích hiện ngay.</p>
+  <a class="go" href="#ly-thuyet">Bắt đầu học</a>
+  <svg class="env" viewBox="0 0 200 150" aria-hidden="true"><defs><linearGradient id="en" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cfe0ff"/><stop offset="1" stop-color="#e8d4ff"/></linearGradient></defs>
+    <rect x="30" y="8" width="140" height="100" rx="8" fill="#fff" stroke="#f3a9c8" stroke-width="3" transform="rotate(-6 100 58)"/>
+    <path d="M100 86C84 74 80 62 90 56 96 52 100 58 100 58 100 58 104 52 110 56 120 62 116 74 100 86z" fill="#f06fa6" transform="rotate(-6 100 58)"/>
+    <path d="M10 50L100 112 190 50V142H10z" fill="url(#en)"/><path d="M10 50L100 112 190 50" fill="none" stroke="#fff" stroke-width="3"/></svg>
+</section>
+<div id="ly-thuyet"></div>
+<div id="work"></div>
+<section class="card center reveal"><h2 class="sc"><small>Tổng kết</small>Kết quả của bạn</h2><div class="score gt" id="final">0/50</div>
+<p class="mut" id="brk"></p><p class="mut" id="msg">Làm hết 50 câu để xem tổng kết.</p><button class="go" onclick="location.reload()">Làm lại từ đầu</button></section>
+</main>
+<div class="pill" id="pill">Đúng 0 / 0</div>
+
+<script>
+const $=id=>document.getElementById(id);
+$("ly-thuyet").innerHTML=`
+<section class="card reveal"><h2 class="sc"><small>Phần I</small>Lý thuyết trọng tâm</h2>
+<p>No sooner và Hardly / Scarcely / Barely diễn tả một sự việc <b>vừa mới xảy ra thì ngay lập tức</b> có sự việc khác tiếp nối. Nghĩa tiếng Việt: “Vừa mới … thì …”.</p>
+<h3>1. Công thức đảo ngữ (Inversion)</h3>
+<p>Khi các cụm từ này đứng đầu câu để nhấn mạnh, <b>bắt buộc đảo</b> trợ động từ lên trước chủ ngữ ở mệnh đề đầu tiên.</p>
+<div class="fm"><b class="k">No sooner</b><b>+ had +</b><b class="w">S</b><b>+ V3/ed</b><b class="k">THAN</b><b class="w">S</b><b>+ V (quá khứ đơn)</b></div>
+<div class="fm"><b class="k2">Hardly / Scarcely / Barely</b><b>+ had +</b><b class="w">S</b><b>+ V3/ed</b><b class="k2">WHEN</b><b class="w">S</b><b>+ V (quá khứ đơn)</b></div>
+<div class="note"><b>Chú ý siêu quan trọng (bẫy trong đề thi):</b><br>• No sooner LUÔN đi với <b>THAN</b> (vì “sooner” là hình thức so sánh hơn).<br>• Hardly / Scarcely / Barely LUÔN đi với <b>WHEN</b> (đôi khi dùng “before”).<br>• Hành động xảy ra trước chia <b>quá khứ hoàn thành</b>; hành động theo sau chia <b>quá khứ đơn</b>.</div></section>
+<section class="card reveal"><h3 style="margin-top:0">2. Cách làm bài viết lại câu</h3>
+<p>Đề thường cho câu dùng As soon as (ngay khi), Just after (ngay sau khi), The moment (khoảnh khắc mà)…</p>
+<div class="wrap"><table><tr><th>Câu gốc (As soon as / Right after)</th><th>Viết lại (No sooner / Hardly)</th></tr>
+<tr><td style="color:inherit;font-weight:400">As soon as he arrived home, the phone rang.</td><td>No sooner had he arrived home than the phone rang.<br>Hardly had he arrived home when the phone rang.</td></tr>
+<tr><td style="color:inherit;font-weight:400">She started crying right after she read the letter.</td><td>No sooner had she read the letter than she started crying.</td></tr></table></div>
+<h3>Bước giải</h3><ol><li>Xác định hành động 1 (xảy ra trước) và hành động 2 (xảy ra sau).</li><li>Chia hành động 1 ở quá khứ hoàn thành, đẩy “had” lên trước chủ ngữ.</li><li>Đặt liên từ “than” hoặc “when” vào giữa hai mệnh đề.</li><li>Chia hành động 2 ở quá khứ đơn.</li></ol></section>
+<section class="card reveal"><h3 style="margin-top:0">3. Khi KHÔNG đảo ngữ</h3>
+<p>Nếu No sooner hoặc Hardly không đứng đầu câu, đặt chúng vào giữa câu như trạng từ bình thường (kẹp giữa “had” và động từ chính). Tuy nhiên, trong đề tự luận, cấu trúc đảo ngữ vẫn được ưa chuộng nhất.</p>
+<div class="note">He had <b>no sooner</b> arrived <b>than</b> the phone rang. = He had <b>hardly</b> arrived <b>when</b> the phone rang.</div></section>`;
+
+/* [câu gốc, từ mở đầu, đáp án, hành động trước, hành động sau, ghi chú] */
+const E=[
+["As soon as I left the house, it started to rain heavily.","No sooner","No sooner had I left the house than it started to rain heavily.","I left the house","it started to rain heavily",""],
+["Right after the teacher entered the classroom, the students stood up.","Hardly","Hardly had the teacher entered the classroom when the students stood up.","the teacher entered the classroom","the students stood up",""],
+["The thief ran away the moment he saw the police officer.","No sooner","No sooner had the thief seen the police officer than he ran away.","the thief saw the police officer","he ran away","Hành động trước nằm ở vế sau của câu gốc (nhìn thấy cảnh sát)."],
+["Just after we sat down for dinner, the doorbell rang.","Scarcely","Scarcely had we sat down for dinner when the doorbell rang.","we sat down for dinner","the doorbell rang",""],
+["As soon as she finished her presentation, the audience applauded loudly.","No sooner","No sooner had she finished her presentation than the audience applauded loudly.","she finished her presentation","the audience applauded loudly",""],
+["He had just stepped out of the office when his boss called him back.","Hardly","Hardly had he stepped out of the office when his boss called him back.","he stepped out of the office","his boss called him back","Câu gốc dùng “had just … when”, chuyển sang Hardly giữ nguyên trình tự."],
+["The plane took off immediately after the bad weather cleared up.","No sooner","No sooner had the bad weather cleared up than the plane took off.","the bad weather cleared up","the plane took off","Hành động sau “immediately after” xảy ra trước."],
+["As soon as the singer appeared on stage, the fans started screaming.","Barely","Barely had the singer appeared on stage when the fans started screaming.","the singer appeared on stage","the fans started screaming","Barely dùng như Hardly và đi với when."],
+["Right after they bought the new car, it broke down on the highway.","No sooner","No sooner had they bought the new car than it broke down on the highway.","they bought the new car","it broke down on the highway",""],
+["The match started as soon as the referee blew the whistle.","Hardly","Hardly had the referee blown the whistle when the match started.","the referee blew the whistle","the match started","Hành động trước (thổi còi) nằm ở vế sau của câu gốc."],
+["Immediately after he drank the coffee, he felt more awake.","No sooner","No sooner had he drunk the coffee than he felt more awake.","he drank the coffee","he felt more awake","drink → drank → drunk (V3)."],
+["I had just closed my eyes when the alarm clock went off.","Scarcely","Scarcely had I closed my eyes when the alarm clock went off.","I closed my eyes","the alarm clock went off",""],
+["As soon as the announcement was made, everyone rushed to the exit.","No sooner","No sooner had the announcement been made than everyone rushed to the exit.","the announcement was made","everyone rushed to the exit","Bị động: had + been + V3."],
+["She found a new job right after she graduated from university.","Hardly","Hardly had she graduated from university when she found a new job.","she graduated from university","she found a new job","Hành động sau “right after” xảy ra trước."],
+["They stopped talking the moment the movie began.","No sooner","No sooner had the movie begun than they stopped talking.","the movie began","they stopped talking","begin → began → begun (V3)."],
+["As soon as I solved one problem, another one appeared.","Barely","Barely had I solved one problem when another one appeared.","I solved one problem","another one appeared",""],
+["The company launched the new product just after the advertising campaign ended.","No sooner","No sooner had the advertising campaign ended than the company launched the new product.","the advertising campaign ended","the company launched the new product","Hành động sau “just after” xảy ra trước."],
+["He had just received his salary when he spent it all on clothes.","Hardly","Hardly had he received his salary when he spent it all on clothes.","he received his salary","he spent it all on clothes",""],
+["The sun went down right after we reached the top of the mountain.","No sooner","No sooner had we reached the top of the mountain than the sun went down.","we reached the top of the mountain","the sun went down","Hành động sau “right after” xảy ra trước."],
+["As soon as she pressed the button, the machine started working.","Scarcely","Scarcely had she pressed the button when the machine started working.","she pressed the button","the machine started working",""],
+["I realized my mistake immediately after I submitted the test.","No sooner","No sooner had I submitted the test than I realized my mistake.","I submitted the test","I realized my mistake","Hành động sau “immediately after” xảy ra trước."],
+["The children fell asleep the moment their mother read them a story.","Hardly","Hardly had their mother read them a story when the children fell asleep.","their mother read them a story","the children fell asleep","Hành động trước nằm ở vế sau của câu gốc."],
+["As soon as the concert finished, the crowd left the stadium.","No sooner","No sooner had the concert finished than the crowd left the stadium.","the concert finished","the crowd left the stadium",""],
+["He got into an accident just after he bought his new motorcycle.","Barely","Barely had he bought his new motorcycle when he got into an accident.","he bought his new motorcycle","he got into an accident","Hành động sau “just after” xảy ra trước."],
+["The firemen arrived immediately after the fire alarm went off.","No sooner","No sooner had the fire alarm gone off than the firemen arrived.","the fire alarm went off","the firemen arrived","go → went → gone (V3)."],
+["As soon as the snow started melting, the flowers began to bloom.","Hardly","Hardly had the snow started melting when the flowers began to bloom.","the snow started melting","the flowers began to bloom",""],
+["I heard the news right after I turned on the television.","No sooner","No sooner had I turned on the television than I heard the news.","I turned on the television","I heard the news","Hành động sau “right after” xảy ra trước."],
+["The cat jumped onto the table the moment I turned my back.","Scarcely","Scarcely had I turned my back when the cat jumped onto the table.","I turned my back","the cat jumped onto the table","Hành động trước nằm ở vế sau của câu gốc."],
+["As soon as the manager signed the contract, the deal was finalized.","No sooner","No sooner had the manager signed the contract than the deal was finalized.","the manager signed the contract","the deal was finalized",""],
+["They started arguing right after the meeting began.","Hardly","Hardly had the meeting begun when they started arguing.","the meeting began","they started arguing","Hành động sau “right after” xảy ra trước."]];
+
+/* [câu gốc, 4 phương án, đáp án 0-3, giải thích] */
+const M=[
+["As soon as she had finished her meal, she asked for the bill.",["No sooner she had finished her meal than she asked for the bill.","No sooner had she finished her meal when she asked for the bill.","No sooner had she finished her meal than she asked for the bill.","Hardly had she finished her meal than she asked for the bill."],2,"No sooner + had + S + V3 + than. A không đảo ngữ; B dùng when; D là Hardly nhưng đi với than."],
+["Just after he opened the door, the dog rushed out.",["Hardly had he opened the door when the dog rushed out.","Hardly he had opened the door when the dog rushed out.","No sooner had he opened the door when the dog rushed out.","Scarcely had he opened the door than the dog rushed out."],0,"Hardly + had + S + V3 + when. B không đảo ngữ; C No sooner đi với than; D Scarcely đi với when."],
+["The moment I saw him, I recognized him.",["No sooner did I see him than I recognized him.","No sooner had I seen him than I recognized him.","Hardly had I seen him than I recognized him.","Barely did I see him when I recognized him."],1,"Hành động trước (thấy) chia had seen. A và D dùng did (sai thì); C Hardly đi với when."],
+["She had just fallen asleep when the telephone woke her up.",["No sooner had she fallen asleep when the telephone woke her up.","Hardly had she fallen asleep than the telephone woke her up.","No sooner had she fallen asleep than the telephone woke her up.","No sooner she fell asleep than the telephone woke her up."],2,"Đúng: No sooner had she fallen asleep than. A dùng when; B Hardly đi với than là sai; D không đảo ngữ và sai thì."],
+["As soon as the sun rose, they started their journey.",["Hardly had the sun risen when they started their journey.","No sooner had the sun risen when they started their journey.","Scarcely had the sun rose when they started their journey.","Hardly had the sun risen than they started their journey."],0,"Hardly had the sun risen when. B No sooner + when sai; C rose sai (phải risen); D Hardly + than sai."],
+["Right after the plane landed, the passengers unbuckled their seatbelts.",["No sooner had the plane landed when the passengers unbuckled their seatbelts.","No sooner had the plane landed than the passengers unbuckled their seatbelts.","Hardly the plane had landed when the passengers unbuckled their seatbelts.","No sooner did the plane land than the passengers unbuckled their seatbelts."],1,"No sooner had the plane landed than. A sai liên từ; C không đảo ngữ; D dùng did."],
+["He got married as soon as he graduated from university.",["Scarcely had he graduated from university than he got married.","No sooner had he graduated from university than he got married.","Hardly had he got married when he graduated from university.","No sooner had he got married than he graduated from university."],1,"Tốt nghiệp xảy ra trước, kết hôn sau. A Scarcely + than sai; C và D đảo ngược trình tự."],
+["I had just stepped into the shower when the water stopped running.",["Hardly had I stepped into the shower when the water stopped running.","No sooner had I stepped into the shower when the water stopped running.","Hardly had I stepped into the shower than the water stopped running.","Scarcely had I step into the shower when the water stopped running."],0,"Hardly had I stepped … when. B và C sai liên từ; D sai dạng động từ (step phải là stepped)."],
+["As soon as she heard the good news, she cried with joy.",["Barely had she heard the good news than she cried with joy.","No sooner had she heard the good news than she cried with joy.","Hardly she had heard the good news when she cried with joy.","No sooner did she hear the good news when she cried with joy."],1,"No sooner had she heard … than. A Barely + than sai; C không đảo ngữ; D dùng did và when."],
+["Immediately after we reached the station, the train pulled out.",["Hardly had we reached the station than the train pulled out.","No sooner had the train pulled out than we reached the station.","No sooner had we reached the station than the train pulled out.","Scarcely had we reached the station than the train pulled out."],2,"Đến ga xảy ra trước: No sooner had we reached the station than. A và D sai liên từ; B đảo ngược trình tự."],
+["They bought the house the moment they saw it.",["Hardly had they seen the house than they bought it.","No sooner had they seen the house than they bought it.","No sooner had they bought the house than they saw it.","Barely had they seen the house than they bought it."],1,"Nhìn thấy trước, mua sau: No sooner had they seen … than. A và D sai liên từ; C đảo ngược trình tự."],
+["As soon as he drank the poison, he collapsed on the floor.",["Hardly had he drank the poison when he collapsed on the floor.","Scarcely had he drunk the poison when he collapsed on the floor.","No sooner had he drunk the poison when he collapsed on the floor.","Hardly had he drunk the poison than he collapsed on the floor."],1,"V3 của drink là drunk. Scarcely had he drunk … when. A dùng drank sai; C No sooner + when sai; D Hardly + than sai."],
+["I realized my wallet was missing right after I got on the bus.",["No sooner had I got on the bus than I realized my wallet was missing.","No sooner had I realized my wallet was missing than I got on the bus.","Hardly had I got on the bus than I realized my wallet was missing.","Scarcely did I get on the bus when I realized my wallet was missing."],0,"Lên xe xảy ra trước. B đảo ngược trình tự; C Hardly + than sai; D dùng did."],
+["As soon as the game ended, it started to snow.",["No sooner the game had ended than it started to snow.","Hardly had the game ended when it started to snow.","Hardly had the game ended than it started to snow.","No sooner had the game ended when it started to snow."],1,"Hardly had the game ended when. A không đảo ngữ; C Hardly + than sai; D No sooner + when sai."],
+["Just after he hung up the phone, it rang again.",["No sooner had he hung up the phone when it rang again.","Hardly had he hung up the phone when it rang again.","Scarcely had he hung up the phone than it rang again.","Hardly had he hung up the phone than it rang again."],1,"Hardly had he hung up the phone when. A sai liên từ; C và D dùng than với Hardly / Scarcely nên sai."],
+["As soon as we sat down to eat, someone knocked on the door.",["No sooner had we sat down to eat than someone knocked on the door.","No sooner had we sat down to eat when someone knocked on the door.","Hardly had we sat down to eat than someone knocked on the door.","Barely had we sat down to eat than someone knocked on the door."],0,"No sooner … than. B dùng when; C và D (Hardly / Barely) phải đi với when."],
+["Right after the politician made the statement, the reporters asked questions.",["Hardly had the politician made the statement than the reporters asked questions.","No sooner had the politician made the statement when the reporters asked questions.","Scarcely had the politician made the statement when the reporters asked questions.","No sooner the politician had made the statement than the reporters asked questions."],2,"Scarcely had … when. A Hardly + than sai; B No sooner + when sai; D không đảo ngữ."],
+["As soon as the child saw his mother, he ran to her.",["No sooner had the child seen his mother than he ran to her.","Hardly had the child seen his mother than he ran to her.","No sooner had the child saw his mother than he ran to her.","Barely had the child seen his mother than he ran to her."],0,"No sooner had the child seen … than. B và D sai liên từ (Hardly / Barely + when); C dùng saw thay vì seen."],
+["The storm started the moment they reached the shelter.",["No sooner had they reached the shelter when the storm started.","Hardly had they reached the shelter when the storm started.","Scarcely had they reached the shelter than the storm started.","Hardly had the storm started when they reached the shelter."],1,"Đến nơi trú ẩn xảy ra trước: Hardly had they reached the shelter when. A và C sai liên từ; D đảo ngược trình tự."],
+["Just after she turned off the light, she heard a strange noise.",["No sooner had she turned off the light when she heard a strange noise.","Hardly had she turned off the light when she heard a strange noise.","No sooner she had turned off the light than she heard a strange noise.","Hardly had she turned off the light than she heard a strange noise."],1,"Hardly had she turned off the light when. A sai liên từ; C không đảo ngữ; D Hardly + than sai."]];
+
+let ok=0,done=0;const pc=[0,0],L=["A","B","C","D"],pill=$("pill");
+function upd(){pill.textContent=`Đúng ${ok} / ${done}`;if(done===50){$("brk").textContent=`Tự luận: ${pc[0]}/30 · Trắc nghiệm: ${pc[1]}/20`;$("final").textContent=ok+"/50";$("msg").textContent=ok>=45?"Xuất sắc, bạn nắm chắc đảo ngữ No sooner / Hardly.":ok>=35?"Khá tốt. Xem lại những câu sai để chắc hơn.":"Đọc lại phần lý thuyết rồi thử lại nhé."}}
+let ctx;
+function snd(g){try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();const n=ctx.currentTime;(g?[[660,0],[880,.12],[1175,.24]]:[[220,0],[165,.17]]).forEach(([f,o])=>{const s=ctx.createOscillator(),v=ctx.createGain();s.type=g?"sine":"sawtooth";s.frequency.value=f;v.gain.setValueAtTime(.0001,n+o);v.gain.exponentialRampToValueAtTime(g?.2:.12,n+o+.02);v.gain.exponentialRampToValueAtTime(.0001,n+o+.3);s.connect(v);v.connect(ctx.destination);s.start(n+o);s.stop(n+o+.32)})}catch(e){}}
+function mark(g,p){done++;if(g){ok++;pc[p]++}snd(g);upd()}
+const card=(h,sub,t)=>{const s=document.createElement("section");s.className="card reveal";s.innerHTML=`<h2 class="sc"><small>${sub}</small>${h}</h2>${t?`<p class="mut">${t}</p>`:""}`;return s};
+const nz=s=>s.toLowerCase().replace(/[’‘]/g,"'").replace(/[.,!?;]/g,"").replace(/\s+/g," ").trim();
+const W=$("work");
+
+const c2=card("Viết lại câu","Phần II · Tự luận · câu 1–30","Viết lại bằng đảo ngữ với từ gợi ý. Gõ tiếp sau từ mở đầu (hoặc cả câu), rồi nhấn Enter.");
+E.forEach((e,i)=>{const d=document.createElement("div");d.className="q";
+  d.innerHTML=`<div class="sent"><span class="qn">${i+1}</span>${e[0]}</div><div class="row"><span class="st">➔ ${e[1]}</span><textarea aria-label="Câu ${i+1}" placeholder="Viết tiếp…"></textarea><button class="cb">Kiểm tra</button></div><div class="fb"></div>`;
+  const ta=d.querySelector("textarea"),bt=d.querySelector(".cb"),fb=d.querySelector(".fb");
+  const as=[nz(e[2])];if(e[1]!=="No sooner")as.push(nz(e[2].replace(" when "," before ")));
+  const run=()=>{const u=nz(ta.value);if(!u||ta.disabled)return;
+    const g=as.includes(nz(e[1]+" "+u))||as.includes(u);
+    ta.disabled=bt.disabled=true;ta.classList.add(g?"ok":"no");
+    const con=e[1]==="No sooner"?"No sooner luôn đi với <b>than</b>.":"Hardly / Scarcely / Barely đi với <b>when</b> (đôi khi before).";
+    fb.className="fb show "+(g?"ok":"no");
+    fb.innerHTML=`<strong class="${g?"ok":"no"}">${g?"Chính xác!":"Chưa đúng."}</strong><div class="ans">${e[2]}</div><div class="mut">Trước: <b>${e[3]}</b> → had + V3, đảo had lên trước chủ ngữ. Sau: <b>${e[4]}</b> → quá khứ đơn. ${con} ${e[5]}</div>`;
+    mark(g,0)};
+  bt.onclick=run;ta.onkeydown=ev=>{if(ev.key==="Enter"&&!ev.shiftKey){ev.preventDefault();run()}};c2.appendChild(d)});
+W.appendChild(c2);
+
+for(let g=0;g<2;g++){const c=card("Trắc nghiệm HSA",`Phần III · câu ${g*10+31}–${g*10+40}`,g?"":"Chọn đáp án có nghĩa gần nhất với câu gốc, hoặc đúng ngữ pháp nhất.");
+  M.slice(g*10,g*10+10).forEach((m,i)=>{const n=g*10+i+31,d=document.createElement("div");d.className="q";
+    d.innerHTML=`<div class="sent"><span class="qn">${n}</span><b>${m[0]}</b></div>${m[1].map((s,j)=>`<button class="opt" data-j="${j}"><span class="l">${L[j]}.</span>${s}</button>`).join("")}<div class="fb"></div>`;
+    const bs=[...d.querySelectorAll(".opt")],fb=d.querySelector(".fb");
+    bs.forEach(b=>b.onclick=()=>{const j=+b.dataset.j,ok2=j===m[2];
+      bs.forEach(x=>x.disabled=true);bs[m[2]].classList.add("ok");if(!ok2)b.classList.add("no");
+      fb.className="fb show "+(ok2?"ok":"no");
+      fb.innerHTML=`<strong class="${ok2?"ok":"no"}">${ok2?"Chính xác!":"Chưa đúng."}</strong> Đáp án đúng: <b>${L[m[2]]}</b><div class="mut">${m[3]}</div>`;
+      mark(ok2,1)});
+    c.appendChild(d)});W.appendChild(c)}
+
+/* hoa, phong thư và lấp lánh */
+function poppy(id,c1,c2,seed){let h=`<defs><radialGradient id="${id}g" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/></radialGradient></defs>`;
+  [[100,110,70,58,0],[70,96,52,64,-22],[132,96,52,64,22],[100,76,46,50,0]].forEach(([x,y,rx,ry,r],i)=>h+=`<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="url(#${id}g)" opacity="${.9-i*.06}" transform="rotate(${r} ${x} ${y})"/>`);
+  for(let i=0;i<9;i++){const a=(-70+i*17)*Math.PI/180;h+=`<line x1="100" y1="100" x2="${100+Math.cos(a)*30}" y2="${100+Math.sin(a)*30}" stroke="#ffd54a" stroke-width="2.2" stroke-linecap="round"/>`}
+  $(id).innerHTML=h}
+poppy("f1","#ffc2d8","#f06fa6");poppy("f2","#ffb0cc","#ee5c9c");poppy("f3","#ffd0e0","#f58bb8");
+[[8,12],[88,8],[12,60],[92,48],[80,76],[20,88],[50,24],[64,90]].forEach(([x,y],i)=>$("sps").insertAdjacentHTML("beforeend",`<svg class="sp" style="left:${x}vw;top:${y}vh;animation-delay:${i*.5}s" viewBox="0 0 24 24"><path d="M12 1C13 8 16 11 23 12 16 13 13 16 12 23 11 16 8 13 1 12 8 11 11 8 12 1z" fill="#fff" stroke="#c9b6f5" stroke-width="1"/></svg>`));
+const px=[["f1",.1,.015],["f2",-.08,-.012],["f3",-.12,.02]].map(x=>[$(x[0]),x[1],x[2]]);
+addEventListener("scroll",()=>{const y=scrollY;px.forEach(([e,s,r])=>e.style.transform=`translateY(${y*s}px) rotate(${y*r}deg)`)},{passive:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.05});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
